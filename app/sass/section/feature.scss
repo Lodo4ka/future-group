@@ -1,0 +1,42 @@
+.col-8-custom-m {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 72.7%;
+  -ms-flex: 0 0 72.7%;
+  flex: 0 0 72.7%;
+  max-width: 72.7%;
+}
+
+.feature {
+  margin-top: 25px;
+}
+
+.feature_main_block {
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding-top: 35px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 48px;
+}
+
+.feature_main_block__title {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.feature_main_block_description_image {
+  margin-right: 25px;
+}
+
+.feature_main_block_description_parag {
+  display: block;
+  margin-bottom: 0;
+  font-size: 13px;
+}
+
+.feature_main_block_description_image_bottom {
+  margin-right: 19px;
+}

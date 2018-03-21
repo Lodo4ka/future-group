@@ -1,0 +1,153 @@
+@charset "UTF-8";
+.col-8-custom {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 72.7%;
+  -ms-flex: 0 0 72.7%;
+  flex: 0 0 72.7%;
+  max-width: 72.7%;
+}
+
+.main__title {
+  font-size: 64px;
+  color: #4b4b4b;
+}
+
+.main__subtitle {
+  font-size: 26px;
+  color: #4b4b4b;
+}
+
+.main__sidebar {
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  background-color: #ffffff;
+  height: 470px;
+}
+
+.main__sidebar__recomendation {
+  font-size: 20px;
+  display: block;
+  color: #4b4b4b;
+}
+
+.main__sidebar__link {
+  text-decoration: underline;
+  color: #8a8a8a;
+}
+
+.main__sidebar__link:hover {
+  color: #eb5825;
+}
+
+.main__card {
+  background-color: #ffffff;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+}
+
+.main__card__title {
+  font-size: 24px;
+}
+
+.main__card__img__label {
+  display: block;
+  font-size: 18px;
+  color: #a6a6a6;
+}
+
+.main__card__block__list {
+  padding-left: 0;
+  padding-righ: 0;
+}
+
+.main__card__list {
+  list-style: none;
+}
+
+.main__card__list__item {
+  font-size: 14px;
+}
+
+.main__card__list__item::before {
+  content: "•";
+  font-size: 25px;
+  color: #eb5825;
+  position: relative;
+  top: 4px;
+  right: 10px;
+}
+
+.main__card__chooser__title {
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.main__card__form {
+  background: url("../../img/group-1.png") no-repeat;
+  margin-top: 15px;
+  height: 15%;
+  background-position: 0 0;
+  margin-left: 30px;
+  margin-bottom: 15px;
+}
+
+.main__card__radio_button {
+  margin-top: 16px;
+  -webkit-transform: scale(4);
+      -ms-transform: scale(4);
+          transform: scale(4);
+  visibility: hidden;
+}
+
+.margin-left-big-custom {
+  margin-left: 3.2rem;
+}
+
+.margin--left-small-custom {
+  margin-left: 3.1rem;
+}
+
+.main__card_feature {
+  font-size: 14px;
+  margin-left: 30px;
+  display: block;
+  margin-bottom: 35px;
+}
+
+.main__card__button__calculate {
+  background-color: #eb5825;
+  color: #ffffff;
+  border: none;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+
+.main__card__consultation {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+
+.main__card__consultation__link {
+  font-size: 14px;
+  color: #8a8a8a;
+  text-decoration: underline;
+}
+
+.main__card__consultation__link:hover {
+  color: #eb5825;
+}
+
+.padding-bottom-100 {
+  padding-bottom: 100px;
+}

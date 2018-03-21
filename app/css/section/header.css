@@ -1,0 +1,80 @@
+.header__cost {
+  color: #f36240;
+  font-size: 23px;
+  text-decoration: underline;
+  font-variant: small-caps;
+}
+
+.header__cost:hover {
+  color: #f36240;
+}
+
+.header__time {
+  font-size: 16px;
+  color: #484745;
+  font-size: 16px;
+}
+
+.header__phone {
+  font-size: 31px;
+  color: #484745;
+}
+
+.header__navbar__width {
+  width: 100%;
+}
+
+.header__navbar__padding_margin {
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.nav-item {
+  list-style: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 15px 22px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  font-size: 22px;
+  color: #5f6973;
+}
+
+.nav-item a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-item:nth-child(even) {
+  border-left: 1px solid #5f6973;
+  border-right: 1px solid #5f6973;
+}
+
+.nav-item:hover {
+  background: #7bc3d5;
+  color: #fff;
+}
+
+.nav-item:hover a {
+  color: #fff;
+}
+
+.active {
+  background: #7bc3d5;
+}
+
+.active a {
+  color: #fff;
+}

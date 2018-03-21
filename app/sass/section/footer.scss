@@ -1,0 +1,89 @@
+.col-8-custom {
+  position: relative;
+  width: 100%;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 72.7%;
+  -ms-flex: 0 0 72.7%;
+  flex: 0 0 72.7%;
+  max-width: 72.7%;
+}
+
+.footer {
+  margin-top: 40px;
+}
+
+.footer__link_comment {
+  font-size: 16px;
+  color: #eb5825;
+  border-bottom: 1px solid #eb5825;
+}
+
+.footer__link_comment:hover {
+  text-decoration: none;
+  color: #eb5825;
+}
+
+.footer__title {
+  font-size: 26px;
+}
+
+.footer__wrapper {
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding-top: 37px;
+  padding-left: 25px;
+  padding-right: 70px;
+  padding-bottom: 35px;
+}
+
+.footer__name_comment {
+  display: block;
+  font-size: 16px;
+  letter-spacing: -0.8px;
+}
+
+.footer__order_comment {
+  display: block;
+  color: #8a8a8a;
+  font-size: 14px;
+}
+
+.footer__date_comment {
+  display: block;
+  color: #8a8a8a;
+  font-size: 14px;
+}
+
+.footer__parag_comment {
+  font-size: 14px;
+  letter-spacing: -0.8px;
+}
+
+.footer__read {
+  color: #eb5825;
+  font-size: 16px;
+  border-bottom: 1px dashed #eb5825;
+}
+
+.footer__read::before {
+  content: url("../../img/download.png");
+  position: relative;
+  right: 0.5%;
+}
+
+.footer__read:hover {
+  text-decoration: none;
+  color: #eb5825;
+}
+
+.footer__button_comment {
+  background-color: #eb5825;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
